@@ -35,7 +35,7 @@
 ### 好きな環境でワークショップを実行
 
 - **ローカル環境**: Git / GitHub Copilot を有効にした VS Code / Python 3.12 / .NET 10 SDK が揃っていれば、リポジトリをクローンしてローカルで演習できます。詳細チェックリストは [PREREQUISITES.md](./PREREQUISITES.md) を参照。リソースページに必要ツールの簡易リマインダーもあります。
-- **GitHub Codespaces**: インストール不要がよければ、リポジトリから Codespace を起動してクラウドで進められます。手順は [`docs/en/opening-repository-in-GH-codespaces.md`](./docs/en/opening-repository-in-GH-codespaces.md) にあります。
+- **GitHub Codespaces**: インストール不要がよければ、リポジトリから Codespace を起動してクラウドで進められます。手順は [`docs/ja/opening-repository-in-GH-codespaces.md`](./docs/ja/opening-repository-in-GH-codespaces.md) にあります。
 
 ### 💻 使用技術
 
