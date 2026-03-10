@@ -8,11 +8,11 @@
 
 依存関係のインストールやビルドなしで別環境でも動作するように、このプロジェクトをコンテナ化してください。
 
-最初は Agent Mode で Dockerfile を作成し、Dockerfile 修正時は Edit Mode に切り替えましょう。
-最後に Agent Mode でコンテナ動作の確認を行います。
+Agent Mode を使って Dockerfile の作成を進めましょう。
 
-1. Copilot に C# プロジェクトをコンテナ化する Dockerfile 生成を依頼
-1. 生成された Dockerfile を確認し、必要に応じて Agent Mode で修正
-1. Agent Mode を使ってコンテナがビルド・実行できるか検証
+1. Copilot に C# プロジェクト（例: `src/csharp-app`）をコンテナ化する Dockerfile 生成を依頼
+1. 生成された Dockerfile を確認し、必要に応じて Agent Mode を使ってファイルへ具体的な変更を加える
+1. Agent Mode を使ってコンテナがビルド・実行できるか検証する
+1. 最後に Agent Mode を使って、コンテナが期待どおりにビルド・実行できることを確認する
 
 コンテナが正しく動作するまで調整してください。

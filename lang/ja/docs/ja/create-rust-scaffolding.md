@@ -4,7 +4,7 @@
 
 プロジェクトとテストの理解ができたら、Rust スキャフォールディングを作成します。
 まず **Copilot Instructions** ファイルを用意します。リポジトリルートに配置する
-`.github/copilot-instructions.md` に以下を記述します（空ファイルを用意済み）。
+.github/copilot-instructions.md に以下を記述します。空のファイルは用意済みなので追記します。
 
 ```markdown
 Whenever you are providing suggestions for a Rust project always use the

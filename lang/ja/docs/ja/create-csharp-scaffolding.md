@@ -3,8 +3,9 @@
 > *このステップ以降は GitHub Copilot を Agent Mode で使いましょう。*
 
 プロジェクトとテストの理解ができたら、C# スキャフォールディングを作成します。
-まず **Copilot Instructions** ファイルを作成します。ファイルは [.github\instructions]
-フォルダーに置きます（空ファイルを用意済みなので内容を記述するだけ）。
+まず **Copilot Instructions** ファイルを用意します。ファイルは
+.github/instructions フォルダーに置きます。空のファイルは用意済みなので、
+instructions.md に内容を記述します。
 
 `.github\instructions\instructions.md` に以下を追加:
 
@@ -14,7 +15,7 @@
 ## Overview
 
 This guide helps developers migrate the Python Weather API to
-  C# .NET 10 using ASP.NET Core Minimal APIs.
+C# .NET 10 using ASP.NET Core Minimal APIs.
 
 ## Requirements
 
@@ -71,6 +72,7 @@ Copilot に依頼し、開始手順とコマンドも聞きましょう。
     ```
 <!-- markdownlint-enable MD046 -->
 
-Copilot がスキャフォールディングを作成したら、`csharp-app` フォルダー内を確認します。`.csproj` と `Program.cs` があるはずです。
+Copilot がスキャフォールディングを作成したら、`csharp-app` フォルダー内を確認します。
+`.csproj` と `Program.cs` があるはずです。
 
 （任意）作成ファイルの目的や内容について、Copilot に質問してください。

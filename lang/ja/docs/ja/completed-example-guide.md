@@ -96,7 +96,7 @@ src/csharp-app-complete/
 //    - コメントでロジック説明
 
 // 4. データ読み込み
-//    - 起動時に一度 JSON を読む
+//    - 起動時に一度 JSON を読む設計
 //    - 強く型付けされたモデルにデシリアライズ
 ```
 
@@ -192,9 +192,9 @@ pytest test_main.py -v
 ```text
 src/csharp-app-complete/
 ├── Program.cs           # メインアプリ
-├── Models.cs            # データモデル (分割されていれば)
-├── weather.json         # Python と同じデータ
-└── *.csproj             # プロジェクト設定
+├── Models.cs           # データモデル（分離されている場合）
+├── weather.json        # Python と同じデータ
+└── *.csproj           # プロジェクト設定
 ```
 
 ### ファイル別の学び
@@ -206,7 +206,7 @@ src/csharp-app-complete/
 - エンドポイント実装
 - Swagger 設定
 
-**Models.cs (存在する場合):**
+**Models.cs（存在する場合）:**
 
 - C# クラス構造
 - JSON プロパティマッピング

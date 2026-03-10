@@ -16,7 +16,7 @@ Rust プロジェクトを Rust テストで直接検証できます。
     ```text
     Now that we have all endpoints in Rust I want native Rust unit tests.
     Add them to main.rs so that I can verify correctness without having to use
-    the BASH file
+    the bash script
     ```
 
 ここまで来れば、Rust アプリは十分にテストされているはずです。お疲れさま！時間があれば他のタスクにも挑戦してみてください。

@@ -44,20 +44,20 @@ app.Run();
 
 C# の最初のエンドポイントを検証しましょう。新言語移行ではコード生成と検証を反復するのが重要です。
 
-- Python プロジェクトが停止していることを確認
+- Python アプリが停止していることを確認
 - Copilot に Python と同じアドレス/ポートで C# を起動する方法を尋ねる
 - Python テストを実行し、失敗があれば修正
 
-2 つのターミナルを使用:
+2 つのターミナルを使用します:
 
-- 1つ目: C# アプリを実行
+- 1 つ目: C# アプリを実行
 
 ```bash
 cd src/csharp-app
 dotnet run --urls "http://localhost:8000"
 ```
 
-- 2つ目: Python テストを実行
+- 2 つ目: Python テストを実行
 
 ```bash
 cd src/python-app/webapp
@@ -69,7 +69,7 @@ pytest test_main.py -v
 
     ```text
     Please stop any process on port `8000`, then start the C# minimal API in
-    `src\csharp-app` with `ASPNETCORE_URLS=http://0.0.0.0:8000`.
+    `src/csharp-app` with `ASPNETCORE_URLS=http://0.0.0.0:8000`.
     Do not change any C# code.
     Start the C# app in the foreground in one terminal and open a second
     terminal to run
@@ -102,7 +102,8 @@ Agent Mode または Plan Mode で、他のエンドポイントを追加し、S
 
 JSON のデシリアライズが必要です。手順が不明なら Copilot に相談し、**最小コード**で実装・即検証してください。
 
-!!! success "小さく検証すると楽"  小さな部分を検証・デバッグする方が簡単です。Copilot 利用時の良い習慣です。
+!!! success "小さく検証すると楽"
+    小さな部分を検証・デバッグする方が簡単です。Copilot 利用時の良い習慣です。
 
 #### 8.2 Plan Mode を活用
 

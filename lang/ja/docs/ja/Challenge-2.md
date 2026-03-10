@@ -27,7 +27,7 @@ Agent Mode で:
 
 1. NuGet パッケージを追加（例: `Microsoft.EntityFrameworkCore`,
    `Microsoft.EntityFrameworkCore.Sqlite` または `Microsoft.EntityFrameworkCore.SqlServer`）
-2. `weather.json` 構造を基に Country/Weather/City エンティティを作成
+2. `weather.json` 構造を基に Country/Weather/City などのエンティティを作成
 3. `DbContext` を継承した `WeatherDbContext` を作成しテーブルを定義
 
 !!! tip

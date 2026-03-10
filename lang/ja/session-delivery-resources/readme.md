@@ -13,7 +13,7 @@
 | リソース | リンク | 説明 |
 | ------------------- | ---------------------------------- | ------------------- |
 | セッション録画 | [Recording](https://youtu.be/_o-h5k-Wnn8) | セッション概要録画 |
-| ワークショップ録画 | [Recording](https://assetsmanagement952e.blob.core.windows.net//assets/WRK541%20Real%20world%20code%20migration%20with%20GitHub%20Copilot%20Agent%20Mode/EN-US_WRK541_Tech_FY26_Full_Demo_V1.0.mp4) | ワークショップ全編録画 |
+| ワークショップ録画 | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/WRK541%20Real%20world%20code%20migration%20with%20GitHub%20Copilot%20Agent%20Mode/EN-US_WRK541_Tech_FY26_Full_Demo_V1.0.mp4) | ワークショップ全編録画 |
 | セッション配布スライド | [Deck](https://aka.ms/AAz20ha ) | 発表者ノート付きスライド |
 | ワークショップチュートリアル | [Tutorial](https://aka.ms/wrk541instructions) | ワークショップ手順書 |
 

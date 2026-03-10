@@ -8,7 +8,7 @@
 : 異なるソフトウェア同士がやり取りするためのルールとプロトコル。
 
 **Endpoint**
-: API 内の特定の URL パス（例: `/countries`, `/weather`）。
+: API 内の特定の URL パス（例: `/countries` や `/weather`）。
 
 **REST (Representational State Transfer)**
 : 標準 HTTP メソッド（GET/POST/PUT/DELETE）を用いたネットワークアプリ設計スタイル。
@@ -110,9 +110,6 @@
 
 **Ask Mode**
 : 説明・質問・学習用モード。コード変更は行わない。
-
-**Edit Mode**
-: 自然言語指示に基づくピンポイントコード変更モード。
 
 **Agent Mode**
 : 計画・編集・コマンド実行を自律的に行うモード。

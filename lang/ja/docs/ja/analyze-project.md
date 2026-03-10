@@ -13,8 +13,7 @@
     Prompt *(Ask Mode)*
 
     ```text
-    #file:test_main.py provide a summary of the tests for the python
-    application in this repository
+    #file:test_main.py provide a summary of the tests for the python application in this repository
     ```
 
 - Copilot に、Python テストが C# 移行の検証に有効な理由を聞く
@@ -23,8 +22,7 @@
     Prompt *(Ask Mode)*
 
     ```text
-    #file:test_main.py why are the Python tests in test_main.py a good way to
-    validate the C# rewrite?
+    #file:test_main.py why are the Python tests in test_main.py a good way to validate the C# rewrite?
     ```
 
 - プロジェクトを適切に書き換える方法の提案を依頼する
@@ -38,12 +36,12 @@
     ```text
     Just provide suggestions on how to properly rewrite this project in C#.
     Keep this high level.
-    Do not change any code. 
+    Do not change any code.
     ```
 
 ## 5. 不足テストの洗い出し
 
-Python テストがすべてのケースを網羅していない可能性があります。GitHub Copilot を使って不足テストを見つけ、C# 書き換え前にカバレッジを高めましょう。
+Python テストがすべてのケースを網羅していない可能性があります。GitHub Copilot を使って不足テストを見つけ、C# 移行前にカバレッジを高めましょう。
 
 このステップでは **Agent Mode** を使います。
 

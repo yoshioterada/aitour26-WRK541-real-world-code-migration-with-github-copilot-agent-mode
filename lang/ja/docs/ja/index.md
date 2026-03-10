@@ -6,7 +6,7 @@
 
 - **対象**: 言語間移行/翻訳など難度の高い作業を GitHub Copilot のペアプロで行いたい技術者
 - **学べること**: 複数言語への移行に特に有効な Copilot の高度テクと各モードの使い分け
-- **取り組む内容**: Python で書かれた季節データ取得 HTTP API を C# (.NET Minimal APIs) と完全互換で実装
+- **取り組む内容**: Python で書かれた天気データ取得 HTTP API を C# (.NET Minimal APIs) と完全互換で実装
 
 ## 学習目標
 

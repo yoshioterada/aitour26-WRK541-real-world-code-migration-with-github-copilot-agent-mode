@@ -12,9 +12,10 @@
 
 ## ローカル環境の前提条件
 
-GitHub Codespaces でなくローカルでワークショップを行う場合、以下をインストール済みであることを確認してください（インストール済みと仮定して演習を進めます）。
+GitHub Codespaces ではなくローカルでワークショップを行う場合は、以下を
+インストール済みであることを確認してください（インストール済みと仮定して演習を進めます）。
 
-- VS Code で GitHub Copilot を有効にした GitHub アカウント
+- GitHub Copilot が有効な GitHub アカウント
 - Git（リポジトリクローン用）
 - Visual Studio Code
 - Python 3.12 と `pip`（`src/python-app/requirements.txt` のインストール用）
